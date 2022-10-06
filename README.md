@@ -1,6 +1,6 @@
 # DRL for active HFT
 
-We introduce the first end-to-end Deep Reinforcement Learning based framework for active high frequency trading.
+We introduce the first end-to-end Deep Reinforcement Learning based framework for active high-frequency trading.
 
 ### Authors
 - Antonio Briola
@@ -18,11 +18,11 @@ We introduce the first end-to-end Deep Reinforcement Learning based framework fo
 
 ### Description
 
-We train DRL agents to trade one unit of Intel Corporation stocks by employing the Proximal Policy Optimization algorithm. The training is performed on three contiguous months of high frequency Limit Order Book data. In order to maximise the signal to noise ratio in the training data, we compose the latter by only selecting training samples with largest price changes. The test is then carried out on the following month of data. Hyperparameters are tuned using the Sequential Model Based Optimization technique. We consider three different state characterizations, which differ in the LOB-based meta-features they include. Agents learn trading strategies able to produce stable positive returns in spite of the highly stochastic and non- stationary environment, which is remarkable itself. Analysing the agents’ performances on the test data, we argue that the agents are able to create a dynamic representation of the underlying environment highlighting the occasional regularities present in the data and exploiting them to create long-term profitable trading strategies.
+We train DRL agents to trade one unit of Intel Corporation stocks by employing the Proximal Policy Optimization algorithm. The training is performed on three contiguous months of high-frequency Limit Order Book data. In order to maximize the signal-to-noise ratio in the training data, we compose the latter by only selecting training samples with the largest price changes. The test is then carried out on the following month of data. Hyperparameters are tuned using the Sequential Model Based Optimization technique. We consider three different state characterizations, which differ in the LOB-based meta-features they include. Agents learn trading strategies able to produce stable positive returns in spite of the highly stochastic and non-stationary environment, which is remarkable itself. Analyzing the agents’ performances on the test data, we argue that the agents are able to create a dynamic representation of the underlying environment highlighting the occasional regularities present in the data and exploiting them to create long-term profitable trading strategies.
 
 ### Data description
 
-We use data from the INTEL stock from the LOBSTER database. Unfortunately we are not able to share them as they are proprietary data.
+We use data from the INTEL stock from the LOBSTER database. Unfortunately, we are not able to share them as they are proprietary data.
 
 Nonetheless, if you are able to acquire it through appropriate means, here is how it should be structured in the code:
 
@@ -40,18 +40,18 @@ The code can be run through main.py and the parameters can be set through the ar
 
 ### How to cite
 
-@article{briola2021deep,
-  title={Deep reinforcement learning for active high frequency trading},
-  author={Briola, Antonio and Turiel, Jeremy and Marcaccioli, Riccardo and Aste, Tomaso},
-  journal={arXiv preprint arXiv:2101.07107},
+@article{briola2021deep,\
+  title={Deep reinforcement learning for active high frequency trading},\
+  author={Briola, Antonio and Turiel, Jeremy and Marcaccioli, Riccardo and Aste, Tomaso},\
+  journal={arXiv preprint arXiv:2101.07107},\
   year={2021}
 }
 
 
 ### Contacts
 
-a.briola@ucl.ac.uk
-jeremy.turiel.18@ucl.ac.uk
-t.aste@ucl.ac.uk
-riccardo.marcaccioli@ladhyx.polytechnique.fr
-acauderan@ethz.ch
+a.briola@ucl.ac.uk \
+jeremy.turiel.18@ucl.ac.uk \
+t.aste@ucl.ac.uk \
+riccardo.marcaccioli@ladhyx.polytechnique.fr \
+acauderan@ethz.ch \
