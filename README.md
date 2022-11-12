@@ -22,7 +22,7 @@ We train DRL agents to trade one unit of Intel Corporation stocks by employing t
 
 ### Data description
 
-We use data from the INTEL stock from the LOBSTER database. Unfortunately, we are not able to share them as they are proprietary data.
+We use data from the INTEL stock from the [LOBSTER](https://lobsterdata.com) database. Unfortunately, we are not able to share them as they are proprietary data.
 
 Nonetheless, if you are able to acquire it through appropriate means, here is how it should be structured in the code:
 
@@ -36,7 +36,7 @@ Nonetheless, if you are able to acquire it through appropriate means, here is ho
 
 ### Code usage
 
-The code can be run through main.py and the parameters can be set through the argument parser where each parameter is explained in the code.
+The code can be run through main.py and the parameters can be set through the argument parser (each parameter is explained in the code).
 
 ### How to cite
 
@@ -54,4 +54,4 @@ a.briola@ucl.ac.uk \
 jeremy.turiel.18@ucl.ac.uk \
 t.aste@ucl.ac.uk \
 riccardo.marcaccioli@ladhyx.polytechnique.fr \
-acauderan@ethz.ch \
+acauderan@ethz.ch
