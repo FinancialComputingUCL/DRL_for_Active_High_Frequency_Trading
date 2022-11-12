@@ -52,6 +52,6 @@ The code can be run through main.py and the parameters can be set through the ar
 
 a.briola@ucl.ac.uk \
 jeremy.turiel.18@ucl.ac.uk \
-t.aste@ucl.ac.uk \
 riccardo.marcaccioli@ladhyx.polytechnique.fr \
-acauderan@ethz.ch
+acauderan@ethz.ch \
+t.aste@ucl.ac.uk 
