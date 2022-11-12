@@ -1,6 +1,6 @@
 # DRL for active HFT
 
-We introduce the first end-to-end Deep Reinforcement Learning based framework for active high-frequency trading.
+We propose an open-source version of the code for the first end-to-end Deep Reinforcement Learning based framework for active high-frequency trading.
 
 ### Authors
 - Antonio Briola
