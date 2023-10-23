@@ -42,11 +42,10 @@ The code can be run through main.py and the parameters can be set through the ar
 
 @article{briola2021deep,\
   title={Deep reinforcement learning for active high frequency trading},\
-  author={Briola, Antonio and Turiel, Jeremy and Marcaccioli, Riccardo and Aste, Tomaso},\
+  author={Antonio Briola and Jeremy Turiel and Riccardo Marcaccioli and Alvaro Cauderan and Tomaso Aste},\
   journal={arXiv preprint arXiv:2101.07107},\
   year={2021}
 }
-
 
 ### Contacts
 
