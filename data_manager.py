@@ -7,8 +7,8 @@ import pandas as pd
 
 
 def scale(df):
-    mins = pd.read_csv('data/train_mins.csv', header=None)
-    maxes = pd.read_csv('data/train_maxes.csv', header=None)
+    mins = pd.read_csv('data/mins.csv', header=None)
+    maxes = pd.read_csv('data/maxes.csv', header=None)
     min = np.array(mins.min(axis=0))
     max = np.array(maxes.max(axis=0))
 
